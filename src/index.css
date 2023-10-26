@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* write your CSS here */
+
+.app {
+  background: #e6e9fb;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating {
+  display: flex;
+  width: 50%;
+  padding: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 10px 10px 4px 0px rgba(255, 255, 255, 0.4);
+}
+h1 {
+  color: #0f172a;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.rating p {
+  color: #374151;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+word-wrap: break-word;
+}
+
+.stars-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
